@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin-bottom: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+.img{
+	width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	background: #eee;
+	
+}
+/*mixit css start*/
+.wrapper{
+	width: 100%;
+	padding: 80px 0px;
+}
+.filter{
+	width: 70%;
+	margin: 0px auto 30px;
+	text-align: center;
+}
+.filter .btn-info{
+	padding: 2px 2px;
+	background: #08c;
+	color: white;
+	border: 1px solid #08c;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 2px;
+	margin: 2px 2px;
+	transition: 1s;
+}
+.filter .btn-info:hover{
+	background: black;
+	color: white;
+}
+.filter .btn-info:focus{
+	background: transparent;
+	color: red;
+}
+.protfolio .item{
+	width: 100%;
+	position: relative;
+}
+.padd{
+	padding: 2px;
+}
+.item-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(136, 200, 0, .8);
+	text-align: center;
+	transform: scale(0);
+	transition: 1s;
+}
+.protfolio .item:hover .item-hover{
+	transform: scale(1);
+}
+.item-hover .fa{
+	font-size: 60px;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+/*mixit css end*/
